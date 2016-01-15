@@ -7,7 +7,11 @@ Gem::Specification.new do |spec|
   spec.version = "0.1.0"
   spec.authors = ["Alex Roisenberg"]
   spec.summary = "Set of tools for dealing with time data"
-  spec.description = "Use it in your app for doing things like timers and world time comparisons"
+  spec.description = <<-EOF
+    Use it in your app for doing things like timers and world time comparisons. 
+    Rbtime contains different tools and additions for productive using 
+    of Time class in Ruby.
+  EOF
   spec.homepage = "https://github.com/alexrois/rbtime"
   spec.license = "MIT"
   
