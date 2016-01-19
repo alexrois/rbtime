@@ -1,10 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+require 'rbtime/version'
 
 Gem::Specification.new do |spec|
   spec.name = "rbtime"
-  spec.version = "0.1.0"
+  spec.version = Rbtime::VERSION
   spec.authors = ["Alex Roisenberg"]
   spec.summary = "Set of tools for dealing with time data"
   spec.description = <<-EOF

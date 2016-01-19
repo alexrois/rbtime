@@ -1,8 +1,5 @@
-class Rbtime
-  def tnow
-    puts Time.now
-  end
-end
+require "rbtime/version"
 
-i = Rbtime.new
-i.tnow
+module Rbtime
+  # All stuff goes here...
+end
