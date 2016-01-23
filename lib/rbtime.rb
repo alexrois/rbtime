@@ -1,5 +1,6 @@
 require "rbtime/version"
 
 module Rbtime
-  # All stuff goes here...
+  def time_now
+  end
 end
