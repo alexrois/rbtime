@@ -1,6 +1,11 @@
 require "rbtime/version"
 
 module Rbtime
-  def time_now
+  
+  class Current
+    
+    def time_now
+      return Time.now
+    end
   end
 end

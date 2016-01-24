@@ -9,4 +9,11 @@ class TestRbtime < Test::Unit::TestCase
   def test_something
     assert true
   end
+  
+  def test_time_now
+    i = Rbtime::Current.new
+    x = i.time_now
+    y = Time.now
+    assert_equal(x.to_s, y.to_s)
+  end
 end
