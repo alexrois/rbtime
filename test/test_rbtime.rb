@@ -6,10 +6,6 @@ class TestRbtime < Test::Unit::TestCase
     refute_nil ::Rbtime::VERSION
   end
   
-  def test_something
-    assert true
-  end
-  
   def test_time_now
     i = Rbtime::Current.new
     x = i.time_now
