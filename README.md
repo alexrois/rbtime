@@ -20,11 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-*Usage instructions will be here.*
-
-## Development
-
-*Development instructions will be here.*
+Use it in your app for doing things like timers and world time comparisons. Rbtime contains different tools and additions for productive using of `Time` class in Ruby.
 
 ## Contributing
 
